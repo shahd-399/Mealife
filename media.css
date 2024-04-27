@@ -1,0 +1,163 @@
+/* as8ar mn 640 */
+
+/* sm */
+@media (min-width: 640px) {  }
+
+
+/* md */
+@media  (min-width: 768px) 
+{
+    .container{
+        width: 85%;
+    }
+    .home{
+        height: 170vh;
+        padding-top: 80px;
+    }
+    .chef-card{
+        width: 50%;
+        padding: 10px;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.9);
+    }
+    .inner{
+        position: relative;
+        box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    svg{
+        transform: translate(0px ,-30px);
+    }
+    .gall-picture{
+        columns: 2;
+    }
+    
+    .num1{
+        order: 1;
+    }
+    .num2{
+        order: 3;
+    }
+    .num3{
+        order: 4;
+    }
+    .num4{
+        order: 7;
+    }
+    .num5{
+        order: 2;
+    }
+    .num6{
+        order: 5;
+    }
+    .num7{
+        order: 6;
+    }
+    .contact-us{
+        column-gap: 8px;
+    }
+    .contact-us .info{
+        width: 49%;
+    }
+    .contact-us .Email,.contact-us .call{
+        padding: 40px 20px;
+    }
+    .footer{
+        column-gap: 5px;
+    }
+    .ord1{
+        order: 1;
+    }
+    .ord2{
+        order: 2;
+    }
+    .ord3{
+        order: 3;
+    }
+    .ord1,.ord2{
+        width: 50%;
+    }
+
+}
+/* lg */
+@media  (min-width: 992px) 
+{
+    .home{
+        height: 100vh;
+    }
+    .home .container{
+        height: 100vh;
+        justify-content: space-between;
+        text-align:left;
+
+    }
+    .home .home-cap h2{
+        margin: 0px;
+    }
+    .home-cap i{
+        padding-left: 8px;
+    }
+    .home-cap button{
+        border-top-left-radius: 0px ;
+    }
+    .home .dish{
+        flex-basis: 40%; 
+        order: 1; 
+    }
+    .home .home-cap{
+        flex-basis: 40%; 
+
+    }
+    .chef-card{
+        width: 33.33%;
+        padding: 10px;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.9);
+    }
+    .inner{
+        position: relative;
+        box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    svg{
+        transform: translate(0px ,-15px);
+    }
+    .gall-picture{
+        columns: 3;
+    }
+    .contact-us .Email,.contact-us .call{
+        padding: 30px 20px;
+    }
+
+    .inputs .half{
+        width: 47%;
+    }
+    .ord2{
+        order: 3;
+    }
+    .ord3{
+        order: 2;
+    }
+    .mealify,.touch{
+        width: 23%;
+    }
+    .subscribe{
+        width: 50%;
+        margin-top: 50px;
+    }
+    .footer .container{
+        column-gap: 5px;
+        justify-content: center;
+    }
+
+}
+/* xl */
+@media  (min-width: 1280px) 
+{
+
+}
+/* lg */
+@media  (min-width: 1536px) 
+{
+
+}
