@@ -10,9 +10,8 @@
     .container{
         width: 85%;
     }
-    .home{
-        height: 170vh;
-        padding-top: 80px;
+    .home .dish img{
+        width: 500px;
     }
     .chef-card{
         width: 50%;
@@ -24,9 +23,6 @@
         box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         overflow: hidden;
-    }
-    svg{
-        transform: translate(0px ,-30px);
     }
     .gall-picture{
         columns: 2;
@@ -62,9 +58,6 @@
     .contact-us .Email,.contact-us .call{
         padding: 40px 20px;
     }
-    .footer{
-        column-gap: 5px;
-    }
     .ord1{
         order: 1;
     }
@@ -75,16 +68,16 @@
         order: 3;
     }
     .ord1,.ord2{
-        width: 50%;
+        width: 46%;
+    }
+    .ord3{
+        margin-top: 30px;
     }
 
 }
 /* lg */
-@media  (min-width: 992px) 
+@media  (min-width: 1076px) 
 {
-    .home{
-        height: 100vh;
-    }
     .home .container{
         height: 100vh;
         justify-content: space-between;
@@ -118,9 +111,6 @@
         box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         overflow: hidden;
-    }
-    svg{
-        transform: translate(0px ,-15px);
     }
     .gall-picture{
         columns: 3;

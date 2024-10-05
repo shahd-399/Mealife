@@ -80,7 +80,6 @@
 /*home*/
 .home{
     background-color: rgb(238, 238, 238); 
-    height: 150vh;
 }
 
 .home .container{
@@ -90,8 +89,8 @@
     align-content: center;
     text-align: center;
     justify-content: center;
-    row-gap: 40px;
-    height: 150vh;   
+    row-gap: 40px; 
+    padding: 90px 0px; 
 }
 
 .home .dish{
@@ -110,14 +109,13 @@
     flex-basis: 100%;  
 }
 .home .dish img{
-    width: 100%;
+    width: 300px;
     filter: drop-shadow(4px 4px 9px #000a);
 }
 
 .home .home-cap h2{
     font-family: "Amatic SC", sans-serif;
     font-size: 65px;
-    width: 400;
     margin: auto;
     color: rgb(55, 55, 63);
 }
@@ -141,19 +139,29 @@
     background-color: rgb(244, 4, 4);
 }
 
-.home-cap i{
+.home-cap .btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-cap a i{
     background-color: white;
-    border-left: 7px solid  rgb(244, 4, 4);
+    border: 7px solid;
+    border-color: transparent transparent rgb(244, 4, 4) rgb(244, 4, 4);
     border-radius: 50% ;
     font-size: 15px;
     width: 40px;
     height: 40px;
-    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .home-cap a{
     text-decoration: none;
     color: black;
-    transition: color 1s;   
+    transition: color 1s; 
+    display: flex;
+    align-items: center;  
 }
 
 .home-cap a:hover{
@@ -199,7 +207,6 @@
 
 .chef-card{
     width: 100%;
-    position: relative;
     box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
@@ -208,14 +215,16 @@
 .chef-card img{
     width: 100%;
 }
+.chefs .chef-info{
+    position: relative;
+}
 svg{
     position: absolute;
     z-index: 5;
     width: 100%;
-    bottom: 100;
     right: 0;
     left: 0;
-    transform: translate(0px ,-10px);
+    bottom: 100%;
 }
 .chef-card .chef-info h3{
     color: rgb(33, 37, 41);
@@ -241,7 +250,7 @@ svg{
     transition: color 0.7s;
 }
 .chef-card .icon li{
-   list-style-type: none;
+    list-style-type: none;
 }
 .chef-card .icon i{
     padding: 15px 10px 15px 10px;
@@ -474,6 +483,7 @@ input:focus{
     align-items: center;
     padding: 20px 0px;
     row-gap: 20px;
+    column-gap: 20px;
 }
 .mealify,.subscribe,.touch{
     width: 100%;
@@ -562,14 +572,12 @@ input:focus{
 
 }
 .inp-btn button{
-    width: 20%;
     background-color: rgb(195, 17, 17);
-    padding: 11px 0px;
+    padding: 11px 10px;
     border-color: transparent;
     color: white;
     margin-right: 20px;
     transition: background-color 1s;
-
     display: flex;   
     align-items: center;
     justify-content: center;
